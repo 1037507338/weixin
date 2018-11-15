@@ -1,23 +1,147 @@
-2018-11-14/16:00:32.143||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 50 - Starting WdhApplication on LP-BJ000225 with PID 9048 (started by wangdonghao in D:\IDEA Space\wdh)|^_^|
-2018-11-14/16:00:32.148||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 675 - No active profile set, falling back to default profiles: default|^_^|
-2018-11-14/16:00:32.969||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)|^_^|
-2018-11-14/16:00:32.983||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]|^_^|
-2018-11-14/16:00:32.988||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]|^_^|
-2018-11-14/16:00:32.989||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12|^_^|
-2018-11-14/16:00:32.999||||^_^|[main] INFO  org.apache.catalina.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;"D:\Java\bin;D:\Java\jre\bin";"D:\Java\bin;D:\Java\bin";D:\JavaTool\apache-maven-3.6.0\bin\;D:\JavaTool\Git\cmd;C:\Users\wangdonghao\AppData\Local\Microsoft\WindowsApps;;.]|^_^|
-2018-11-14/16:00:33.091||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext|^_^|
-2018-11-14/16:00:33.091||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 895 ms|^_^|
-2018-11-14/16:00:33.108||||^_^|[main] INFO  o.s.boot.web.servlet.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]|^_^|
-2018-11-14/16:00:33.112||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]|^_^|
-2018-11-14/16:00:33.113||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]|^_^|
-2018-11-14/16:00:33.113||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]|^_^|
-2018-11-14/16:00:33.114||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]|^_^|
-2018-11-14/16:00:33.249||||^_^|[main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'|^_^|
-2018-11-14/16:00:33.313||||^_^|[main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [static/index.html]|^_^|
-2018-11-14/16:00:33.355||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]|^_^|
-2018-11-14/16:00:33.362||||^_^|[main] INFO  org.apache.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read|^_^|
-2018-11-14/16:00:33.373||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''|^_^|
-2018-11-14/16:00:33.376||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 59 - Started WdhApplication in 1.589 seconds (JVM running for 2.438)|^_^|
-2018-11-14/16:00:37.454||||^_^|[http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'|^_^|
-2018-11-14/16:00:37.454||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 521 - Initializing Servlet 'dispatcherServlet'|^_^|
-2018-11-14/16:00:37.464||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 543 - Completed initialization in 9 ms|^_^|
+2018-11-15/11:09:15.113||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 50 - Starting WdhApplication on LP-BJ000225 with PID 1216 (started by wangdonghao in D:\IDEA Space\wdh)|^_^|
+2018-11-15/11:09:15.122||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 675 - No active profile set, falling back to default profiles: default|^_^|
+2018-11-15/11:09:15.975||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)|^_^|
+2018-11-15/11:09:15.985||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:09:15.988||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]|^_^|
+2018-11-15/11:09:15.989||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12|^_^|
+2018-11-15/11:09:15.994||||^_^|[main] INFO  org.apache.catalina.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;"D:\Java\bin;D:\Java\jre\bin";"D:\Java\bin;D:\Java\bin";D:\JavaTool\apache-maven-3.6.0\bin\;D:\JavaTool\Git\cmd;C:\Users\wangdonghao\AppData\Local\Microsoft\WindowsApps;;.]|^_^|
+2018-11-15/11:09:16.070||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext|^_^|
+2018-11-15/11:09:16.070||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 894 ms|^_^|
+2018-11-15/11:09:16.087||||^_^|[main] INFO  o.s.boot.web.servlet.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]|^_^|
+2018-11-15/11:09:16.090||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]|^_^|
+2018-11-15/11:09:16.091||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]|^_^|
+2018-11-15/11:09:16.091||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]|^_^|
+2018-11-15/11:09:16.091||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]|^_^|
+2018-11-15/11:09:16.249||||^_^|[main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'|^_^|
+2018-11-15/11:09:16.331||||^_^|[main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [static/index.html]|^_^|
+2018-11-15/11:09:16.375||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:09:16.382||||^_^|[main] INFO  org.apache.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read|^_^|
+2018-11-15/11:09:16.393||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''|^_^|
+2018-11-15/11:09:16.396||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 59 - Started WdhApplication in 1.651 seconds (JVM running for 2.613)|^_^|
+2018-11-15/11:09:53.333||||^_^|[http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'|^_^|
+2018-11-15/11:09:53.334||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 521 - Initializing Servlet 'dispatcherServlet'|^_^|
+2018-11-15/11:09:53.338||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 543 - Completed initialization in 4 ms|^_^|
+2018-11-15/11:23:18.090||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 50 - Starting WdhApplication on LP-BJ000225 with PID 11552 (started by wangdonghao in D:\IDEA Space\wdh)|^_^|
+2018-11-15/11:23:18.099||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 675 - No active profile set, falling back to default profiles: default|^_^|
+2018-11-15/11:23:19.035||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)|^_^|
+2018-11-15/11:23:19.052||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:23:19.057||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]|^_^|
+2018-11-15/11:23:19.058||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12|^_^|
+2018-11-15/11:23:19.065||||^_^|[main] INFO  org.apache.catalina.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;"D:\Java\bin;D:\Java\jre\bin";"D:\Java\bin;D:\Java\bin";D:\JavaTool\apache-maven-3.6.0\bin\;D:\JavaTool\Git\cmd;C:\Users\wangdonghao\AppData\Local\Microsoft\WindowsApps;;.]|^_^|
+2018-11-15/11:23:19.159||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext|^_^|
+2018-11-15/11:23:19.159||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 997 ms|^_^|
+2018-11-15/11:23:19.178||||^_^|[main] INFO  o.s.boot.web.servlet.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]|^_^|
+2018-11-15/11:23:19.181||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]|^_^|
+2018-11-15/11:23:19.182||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]|^_^|
+2018-11-15/11:23:19.182||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]|^_^|
+2018-11-15/11:23:19.182||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]|^_^|
+2018-11-15/11:23:19.328||||^_^|[main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'|^_^|
+2018-11-15/11:23:19.411||||^_^|[main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [static/index.html]|^_^|
+2018-11-15/11:23:19.457||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:23:19.464||||^_^|[main] INFO  org.apache.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read|^_^|
+2018-11-15/11:23:19.475||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''|^_^|
+2018-11-15/11:23:19.478||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 59 - Started WdhApplication in 1.784 seconds (JVM running for 2.746)|^_^|
+2018-11-15/11:23:25.268||||^_^|[http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'|^_^|
+2018-11-15/11:23:25.268||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 521 - Initializing Servlet 'dispatcherServlet'|^_^|
+2018-11-15/11:23:25.271||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 543 - Completed initialization in 3 ms|^_^|
+2018-11-15/11:23:25.313||||^_^|[http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause|^_^|
+java.lang.NullPointerException: null
+	at com.vipkid.wdh.util.ResponseUtil.doEventResponse(ResponseUtil.java:26)
+	at com.vipkid.wdh.controller.WeixinController.commmunicate(WeixinController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-15/11:27:27.030||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 50 - Starting WdhApplication on LP-BJ000225 with PID 3596 (started by wangdonghao in D:\IDEA Space\wdh)|^_^|
+2018-11-15/11:27:27.033||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 675 - No active profile set, falling back to default profiles: default|^_^|
+2018-11-15/11:27:27.836||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)|^_^|
+2018-11-15/11:27:27.846||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:27:27.849||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]|^_^|
+2018-11-15/11:27:27.849||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12|^_^|
+2018-11-15/11:27:27.854||||^_^|[main] INFO  org.apache.catalina.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;"D:\Java\bin;D:\Java\jre\bin";"D:\Java\bin;D:\Java\bin";D:\JavaTool\apache-maven-3.6.0\bin\;D:\JavaTool\Git\cmd;C:\Users\wangdonghao\AppData\Local\Microsoft\WindowsApps;;.]|^_^|
+2018-11-15/11:27:27.928||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext|^_^|
+2018-11-15/11:27:27.929||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 848 ms|^_^|
+2018-11-15/11:27:27.945||||^_^|[main] INFO  o.s.boot.web.servlet.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]|^_^|
+2018-11-15/11:27:27.948||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]|^_^|
+2018-11-15/11:27:27.949||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]|^_^|
+2018-11-15/11:27:27.949||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]|^_^|
+2018-11-15/11:27:27.949||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]|^_^|
+2018-11-15/11:27:28.080||||^_^|[main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'|^_^|
+2018-11-15/11:27:28.143||||^_^|[main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [static/index.html]|^_^|
+2018-11-15/11:27:28.187||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:27:28.194||||^_^|[main] INFO  org.apache.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read|^_^|
+2018-11-15/11:27:28.206||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''|^_^|
+2018-11-15/11:27:28.208||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 59 - Started WdhApplication in 1.493 seconds (JVM running for 2.305)|^_^|
+2018-11-15/11:27:32.920||||^_^|[http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'|^_^|
+2018-11-15/11:27:32.920||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 521 - Initializing Servlet 'dispatcherServlet'|^_^|
+2018-11-15/11:27:32.924||||^_^|[http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 543 - Completed initialization in 3 ms|^_^|
+2018-11-15/11:30:17.156||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 50 - Starting WdhApplication on LP-BJ000225 with PID 2796 (started by wangdonghao in D:\IDEA Space\wdh)|^_^|
+2018-11-15/11:30:17.161||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 675 - No active profile set, falling back to default profiles: default|^_^|
+2018-11-15/11:30:17.965||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)|^_^|
+2018-11-15/11:30:17.975||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:30:17.979||||^_^|[main] INFO  org.apache.catalina.core.StandardService 173 - Starting service [Tomcat]|^_^|
+2018-11-15/11:30:17.979||||^_^|[main] INFO  org.apache.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.12|^_^|
+2018-11-15/11:30:17.984||||^_^|[main] INFO  org.apache.catalina.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;"D:\Java\bin;D:\Java\jre\bin";"D:\Java\bin;D:\Java\bin";D:\JavaTool\apache-maven-3.6.0\bin\;D:\JavaTool\Git\cmd;C:\Users\wangdonghao\AppData\Local\Microsoft\WindowsApps;;.]|^_^|
+2018-11-15/11:30:18.058||||^_^|[main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext|^_^|
+2018-11-15/11:30:18.058||||^_^|[main] INFO  org.springframework.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 854 ms|^_^|
+2018-11-15/11:30:18.077||||^_^|[main] INFO  o.s.boot.web.servlet.ServletRegistrationBean 186 - Servlet dispatcherServlet mapped to [/]|^_^|
+2018-11-15/11:30:18.080||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'characterEncodingFilter' to: [/*]|^_^|
+2018-11-15/11:30:18.080||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]|^_^|
+2018-11-15/11:30:18.080||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'formContentFilter' to: [/*]|^_^|
+2018-11-15/11:30:18.080||||^_^|[main] INFO  o.s.boot.web.servlet.FilterRegistrationBean 248 - Mapping filter: 'requestContextFilter' to: [/*]|^_^|
+2018-11-15/11:30:18.211||||^_^|[main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'|^_^|
+2018-11-15/11:30:18.279||||^_^|[main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping 56 - Adding welcome page: class path resource [static/index.html]|^_^|
+2018-11-15/11:30:18.323||||^_^|[main] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]|^_^|
+2018-11-15/11:30:18.331||||^_^|[main] INFO  org.apache.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read|^_^|
+2018-11-15/11:30:18.342||||^_^|[main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''|^_^|
+2018-11-15/11:30:18.345||||^_^|[main] INFO  com.vipkid.wdh.WdhApplication 59 - Started WdhApplication in 1.503 seconds (JVM running for 2.481)|^_^|
